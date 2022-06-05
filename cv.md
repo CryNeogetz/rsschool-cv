@@ -4,8 +4,11 @@
 ---
 ## Contact information:
 > Phone: +79545858965
+> 
 > E-mail: <leo112011@bk.ru>
+> 
 > Telegram: @isleon
+> 
 > [Twitter](https://twitter.com/Neogetz3)
 ---
 
@@ -24,9 +27,11 @@
 ---
 
 ## Code example:
-`def create_phone_number(n):
+```
+def create_phone_number(n):
     n = list(map(str, n))
-    return f'({"".join(n[:3])}) {"".join(n[3:6])}-{"".join(n[6:])}'`
+    return f'({"".join(n[:3])}) {"".join(n[3:6])}-{"".join(n[6:])}'
+```
 ---
 
 ## Courses:
