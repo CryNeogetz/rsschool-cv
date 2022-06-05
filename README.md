@@ -1,1 +1,1 @@
-# rsschool-cv
+https://cryneogetz.github.io/rsschool-cv/cv
