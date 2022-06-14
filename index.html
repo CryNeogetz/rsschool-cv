@@ -1,10 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rsschool-cv-html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+    <header>
+        <div class="header__container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">Profile</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#courses" class="nav__link">Courses</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#code" class="nav__link">Code</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <div class="profile__img"></div>
+            <section class="about">
+                <div class="name">
+                    <h1>Leonid <span class="surname">Korbushov</span></h1>
+                    <hr>
+                    <p>Front-end Developer</p>
+                </div>
+                <div id="profile">
+                    <h2>Profile</h2>
+                    <hr>
+                    <p> My goal at the moment is to become a middle developer as soon as possible and find a job.
+                        I started my immersion in programming with the layout of websites.
+                        I've been studying python for the last six months and writing small projects on it.
+                        I want to become a full stack developer, so now I've started studying the frontend.
+                    </p>
+                </div>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <hr>
+                <ul>
+                    <li>2000-2018<br>
+                        <span class="degree">School</span> <br>
+                        Some text</li>
+                    <li>2018-2022<br>
+                        <span class="degree">University</span><br>
+                        Electric power and electrical engineering</li>
+                </ul>
+            </section>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <hr>
+                <ul>
+                    <li>
+                        <h3>Location</h3> Russia
+                    </li>
+                    <li>
+                        <h3>Phone number</h3> +79545858965
+                    </li>
+                    <li>
+                        <h3>E-mail</h3> leo112011@bk.ru
+                    </li>
+                    <li>
+                        <h3>GitHub</h3> <a href="https://github.com/CryNeogetz">CryNeogetz</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="courses">
+                <h2>Courses</h2>
+                <hr>
+                <ul>
+                    <li>Python by <a href="https://stepik.org/cert/1357479">Generation Python</a></li>
+                    <li>CSS by <a href="https://ru.code-basics.com/languages/html">CodeBasics</a></li>
+                    <li>JS/FE Stage 0 by <a href="https://rs.school/">RS School.</a></li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <hr>
+                <ul class="textcols">
+                    <li class="icon-html">HTML</li>
+                    <li class="icon-css">CSS</li>
+                    <li class="icon-js">JavaScript</li>
+                    <li class="icon-git">Git, GitHub</li>
+                    <li class="icon-figma">Pycharm and VS Code</li>
+                    <li class="icon-html">Python</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <hr>
+                <ul>
+                    <li>Russian - native</li>
+                    <li>English - A1+</li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <hr>
+                <code>
+                    def create_phone_number(n): <br>
+                    n = list(map(str, n)) <br>
+                    return f'({"".join(n[:3])}) {"".join(n[3:6])}-{"".join(n[6:])}' <br>
+                    return a * b <br>
+                </code>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="my-github"><a href="https://github.com/CryNeogetz"><img src="assets/img/github-logo.svg" alt="github__logo"></a></div>
+            <div class="year">2022</div>
+            <div class="rsschool"><a href="https://rs.school/js"><img src="assets/img/rss.png" alt="rsschool__logo"></a></div>
+        </div>
+    </footer>
 </body>
 </html>
