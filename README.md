@@ -1,1 +1,1 @@
-https://CryNeogetz.github.io/rsschool-cv/
+https://cryneogetz.github.io/rsschool-cv/
